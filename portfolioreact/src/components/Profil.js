@@ -12,7 +12,7 @@ const Profil = () => {
                 Je suis en mesure de développer un site internet avec un SEO maximal afin qu'il génère un maximum de traffic et souhaite approfondir mes connaissances notamment en Front-end (Next.Js/ReactJS) ou développement mobile (ReactNative/Swift).
                 <br />
                 Je suis à l'écoute de propositions d'entretien en vue d'un alternance.</p>
-                <a className="cv" href="./assets/img/CV.pdf" title="lien de telechargement CV" download>Mon CV</a>   
+                <a className="cv" href="./CV.pdf" title="lien de telechargement CV" download>Mon CV</a>   
             </div>
 
             <div className="competences">
