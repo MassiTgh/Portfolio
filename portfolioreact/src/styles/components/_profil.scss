@@ -1,0 +1,123 @@
+#profil {
+    .presentation {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-bottom: 1.5rem;
+        .description {
+            font-size: 1.1rem;
+            @media screen and (min-width:425px) {
+                font-size: 1.2rem;
+            }
+            @media screen and (min-width:768px) {
+                font-size: 1.2rem;
+            }
+        }
+        img {
+            display:flex;
+            border-radius: 50%;
+            width: 55%;
+            border: solid 5px #275021;
+            justify-content: center;
+            margin: auto;
+            @media screen and (min-width: 425px) {
+                width: 55%;
+            }
+            @media screen and (min-width: 550px) {
+                width: 55%;
+            }
+            @media screen and (min-width: 769px) {
+                width: 32%;
+            }
+            @media screen and (min-width: 1024px) {
+                width: 32%;
+            }
+        }
+        .cv { 
+            width: 8rem;
+            height: 2rem;
+            padding-top: 0.3rem;
+            cursor: pointer;
+            margin: auto;
+            color: black;
+            background-color: #5eb151;
+            border: solid 2px black;
+            text-align: center;
+            border-radius: 30px;
+            transition: 500ms;
+            &:hover {
+                transform: translateY(-6px);
+            }
+        }
+
+        .description {
+            @media screen and (min-width: 769px) {
+                max-width: 80%;
+                margin: auto;
+            }
+            @media screen and (min-width: 1024px) {
+                max-width: 70%;
+                margin: auto;
+            }
+            @media screen and (min-width: 1440px) {
+                max-width: 60%;
+            }
+        }
+    }
+
+    .competences {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.5rem;
+        .listeicons {
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .icons {
+            font-size: 3rem;
+            border-radius: 10px;
+            margin: 0 1.5rem 1.5rem;
+            padding: 4% 3rem;
+            transition: transform 300ms;
+            background: rgb(29,190,57);
+            background: linear-gradient(0deg, rgba(29,190,57,1) 0%, rgba(226,240,220,1) 100%);
+            z-index: 0;
+            @media screen and (min-width:768px) {
+                padding: 3% 3rem;
+            }
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.2);
+            }
+            .html {
+                color: #ff5733;
+            }
+            .css {
+                color: #2965f1;
+            }
+            .js {
+                color: yellow;
+            }
+            .php {
+                color: #787dc7;
+            }
+            .sql {
+                color: #019fc2;
+            }
+            .react {
+                color:#2965f1;
+            }
+            .sass {
+                color: #CD6799;
+            }
+            .bootstrap {
+                color: #553C7B;
+            }
+            .tailwind {
+                color: rgb(99, 84, 233);
+            }
+        }
+    }
+}

@@ -1,0 +1,64 @@
+#contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.5rem 2rem;
+    background-color: #275021;
+
+    .P0{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        #formtitle {
+            color: white;
+        }  
+        span {
+            width: 30%;
+            height: 1px;
+            background-color: white;
+            margin-bottom: 0.6rem;
+            justify-content: center;
+        }
+    }
+
+    #container-contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .P1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .formulaire {
+                border-radius: 5px;
+                padding: 0.5rem;
+                margin: 0.5rem;
+            }
+        }
+    }
+    .btn {
+        width: 30%;
+        margin: auto;
+    }
+    .copyright {
+        font-size: 0.5rem;
+        color: white;
+        margin: 1rem auto;
+    }
+
+    .txt {
+        border-radius: 5px;
+        padding: 0.5rem;
+        width: 15rem;
+        height: 8rem;
+        margin: 0.5rem;
+    }
+
+    @media screen and (min-width: 768px) {
+        #container-contact {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+    }
+}

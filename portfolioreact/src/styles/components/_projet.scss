@@ -1,0 +1,12 @@
+#projets {
+    display: flex;
+    flex-direction: column;
+    .listeprojets {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .projet {
+        padding: 5% 2rem 2rem;
+    }
+}   

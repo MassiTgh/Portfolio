@@ -1,0 +1,42 @@
+/* Insepecter l'élément pour afficher l'ID du popup principale */
+#popup-6 {
+    border-radius: 20px;
+}
+
+img  {
+    max-width: 100%;
+}
+
+.title {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+}
+
+.content {
+    width: 100%;
+    padding: 10px 5px;
+}
+  
+.detail {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.popup2,
+.popupp4 {
+    cursor: pointer;
+}
+
+.popupp4 {
+    font-size: 4rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    margin: auto;
+}
