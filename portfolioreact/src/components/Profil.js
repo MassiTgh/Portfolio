@@ -8,10 +8,10 @@ const Profil = () => {
             <div className="presentation" >
                 <h1>Profil</h1>
                 <img src="/photo.jpeg" alt=""/>
-                <p className="description">Actuellement en formation de développeur web Full Stack à la Web@cademie &#123;EPITECH&#125;, je suis a la recherche d'une alternance de 14 mois à partir de Septembre 2024.
-                Je suis en mesure de développer un site internet avec un SEO maximal afin qu'il génère un maximum de traffic et souhaite approfondir mes connaissances notamment en Front-end (Next.Js/ReactJS) ou développement mobile (ReactNative/Swift).
+                <p className="description">Actuellement en formation de développeur web Full Stack à la Web@cademie &#123;EPITECH&#125;, je suis à la recherche d'une alternance de 14 mois à partir de Septembre 2024.
+                Je suis en mesure de développer un site internet avec un SEO maximal afin qu'il génère un maximum de traffic et souhaite approfondir mes connaissances notamment en front-end (Next.Js/ReactJS) ou développement mobile (ReactNative/Swift).
                 <br />
-                Je suis à l'écoute de propositions d'entretien en vue d'un alternance.</p>
+                Je suis à l'écoute de propositions d'entretien en vue d'une alternance.</p>
                 <a className="cv" href="./CV.pdf" title="lien de telechargement CV" download>Mon CV</a>   
             </div>
 
