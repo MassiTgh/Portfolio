@@ -11,9 +11,8 @@ const Sprite = () => {
         <div className="modal">
             <div className="title">Sprite Generator</div>
             <div className="content">
-                Pour ce projet nous avions pour missions de reproduire un sprite css, donc une image de fond sur laquel nous inserons d'autre image présentes dans des dossiers et sous-dossiers (utilisation de récursvie et problèmatique de redimensions de l'image).
+                Pour ce projet nous avions pour missions de reproduire un sprite css, donc une image de fond sur laquel nous inserons d'autres images présentes dans des dossiers et sous-dossiers (utilisation de récursvie et problèmatique de redimensions d'image).
                 <br></br>
-                Utilité d'un sprite css : gain de temps et de mémoire lors de l'utilisation d'une image dans une balise HTML.
             </div>
             <div className="detail">
                 <Popup trigger={<button className="popup2">Languages utilisés</button>} position="top center" nested >            

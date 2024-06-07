@@ -14,7 +14,6 @@ const Spotify = () => {
             <div className="content">
                 Ce projet avait pour but de nous faire une introduction à ReactJs, projet assez pertinent étant donné que le ReactJs ou React Native sont beaucoup utilisés pour faire des applications web et mobile.
                 Nous avions donc pour mission de reproduire un spotify en exploitant une API avec react et ses librairies.
-                Language de programation qui peut sembler compliqué au premier abord qui se montre finalement assez intuitif.
                 <br></br>
                 <img src="./spotify.png" alt="exemple spotify"/>
             </div>

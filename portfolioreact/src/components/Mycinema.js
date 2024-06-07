@@ -13,7 +13,7 @@ const Sprite = () => {
             <div className="content">
                 La tâche ici était de reproduire un site pour un cinéma en exploitant une base de données qui nous a été fourni par l'école, avec la gestion de la partie admin/utilisateur et la modification de la base de donnée via des requête SQL envoyé du site web. 
                 <br></br>
-                Gestion d'une base de données, envoie de requêtes sql, développement des compétences Back et Front-end.
+                Gestion d'une base de données, envoie de requêtes sql, développement des compétences back et front-end.
             </div>
             <div className="detail">
                 <Popup trigger={<button className="popup2">Languages utilisés</button>} position="top center" nested >            
