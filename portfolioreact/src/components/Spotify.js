@@ -12,7 +12,7 @@ const Spotify = () => {
         <div className="modal">
             <div className="title">Spotify</div>
             <div className="content">
-                Ce projet avait pour but de nous faire une introduction à ReactJs, projet assez pertinent étant donné que le ReactJs ou React Native sont beaucoup utilisés pour faire des applications web et mobile.
+                Ce projet avait pour but de nous faire une introduction à ReactJs, ReactJs ou React Native sont beaucoup utilisés pour faire des applications web et mobile.
                 Nous avions donc pour mission de reproduire un spotify en exploitant une API avec react et ses librairies.
                 <br></br>
                 <img src="./spotify.png" alt="exemple spotify"/>

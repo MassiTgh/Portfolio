@@ -11,7 +11,7 @@ const Sprite = () => {
         <div className="modal">
             <div className="title">Sprite Generator</div>
             <div className="content">
-                Pour ce projet nous avions pour missions de reproduire un sprite css, donc une image de fond sur laquel nous inserons d'autres images présentes dans des dossiers et sous-dossiers (utilisation de récursvie et problèmatique de redimensions d'image).
+                Pour ce projet nous avions pour mission de reproduire un sprite css, donc une image de fond sur laquel nous inserons d'autres images présentes dans des dossiers et sous-dossiers (utilisation de récursvie et problèmatique de redimensions d'image).
                 <br></br>
             </div>
             <div className="detail">

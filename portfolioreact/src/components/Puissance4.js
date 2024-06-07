@@ -12,8 +12,8 @@ const Puissance4 = () => {
         <div className="modal">
             <div className="title">Puissance 4</div>
             <div className="content">
-                Nous devions reproduire le célèbre jeux du puissance 4 avec comme restriction, l'utilisation de module JavaScript uniquement ainsi que l'ulisation de POO (class/construct etc), en y integrant la possibilité de modifier la taille du plateau de jeux ainsi qu'un mode PvP et PvE.<br></br>
-                Découverte et utilisation d'un module JavaScript, fonctionnement d'un module JavaScript.
+                Nous devions reproduire le célèbre jeux du puissance 4 avec comme restriction, l'utilisation d'un module JavaScript uniquement ainsi que l'ulisation de POO, en y integrant la possibilité de modifier la taille du plateau de jeux ainsi qu'un mode PvP et PvE.<br></br>
+                Découverte et utilisation d'un module JavaScript.
             </div>
             <div className="detail">
                 <Popup trigger={<button className="popup2">Languages utilisés</button>} position="top center" nested >
